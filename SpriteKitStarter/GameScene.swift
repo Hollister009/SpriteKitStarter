@@ -42,8 +42,8 @@ class GameScene: SKScene {
     
     
     private func createGround(){
-        ground = SKSpriteNode(color: SKColor.green, size: CGSize(width: size.width * 2, height: 50))
-        ground.position = CGPoint(x: -(size.width / 2), y: -(size.height / 2)) // Place at bottom
+        ground = SKSpriteNode(color: SKColor.green, size: CGSize(width: size.width, height: 30))
+        ground.position = CGPoint(x: 0, y: -(size.height / 2) + (ground.size.height / 2)) // Place at bottom
         ground.physicsBody = SKPhysicsBody(rectangleOf: ground.size) // Static physics body
         ground.physicsBody?.isDynamic = false // Ground will not move
         addChild(ground)
