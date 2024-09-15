@@ -15,6 +15,7 @@
 		4078B5242C96F471000E21E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4078B5232C96F471000E21E0 /* Base */; };
 		4078B5262C96F473000E21E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4078B5252C96F473000E21E0 /* Assets.xcassets */; };
 		4078B5292C96F473000E21E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4078B5282C96F473000E21E0 /* Base */; };
+		4078B5302C971413000E21E0 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B52F2C971413000E21E0 /* Entity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4078B5232C96F471000E21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4078B5252C96F473000E21E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4078B5282C96F473000E21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4078B52F2C971413000E21E0 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		4078B5172C96F471000E21E0 /* SpriteKitStarter */ = {
 			isa = PBXGroup;
 			children = (
+				4078B52F2C971413000E21E0 /* Entity.swift */,
 				4078B5182C96F471000E21E0 /* AppDelegate.swift */,
 				4078B51A2C96F471000E21E0 /* GameScene.sks */,
 				4078B51C2C96F471000E21E0 /* Actions.sks */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4078B5302C971413000E21E0 /* Entity.swift in Sources */,
 				4078B51F2C96F471000E21E0 /* GameScene.swift in Sources */,
 				4078B5212C96F471000E21E0 /* GameViewController.swift in Sources */,
 				4078B5192C96F471000E21E0 /* AppDelegate.swift in Sources */,
